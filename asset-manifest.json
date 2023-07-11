@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/WeatherVerse/static/css/main.78d3c028.css",
-    "main.js": "/WeatherVerse/static/js/main.f46b0cc4.js",
+    "main.js": "/WeatherVerse/static/js/main.644c2c1a.js",
     "static/js/787.63483c54.chunk.js": "/WeatherVerse/static/js/787.63483c54.chunk.js",
     "index.html": "/WeatherVerse/index.html",
     "main.78d3c028.css.map": "/WeatherVerse/static/css/main.78d3c028.css.map",
-    "main.f46b0cc4.js.map": "/WeatherVerse/static/js/main.f46b0cc4.js.map",
+    "main.644c2c1a.js.map": "/WeatherVerse/static/js/main.644c2c1a.js.map",
     "787.63483c54.chunk.js.map": "/WeatherVerse/static/js/787.63483c54.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.78d3c028.css",
-    "static/js/main.f46b0cc4.js"
+    "static/js/main.644c2c1a.js"
   ]
 }
