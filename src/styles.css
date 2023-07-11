@@ -1,0 +1,135 @@
+.container {
+    width: 100%;
+    height: 100%;
+    /* padding-top: 50px; */
+    background-color: rgb(137, 170, 237);
+}
+
+.weather {
+    padding-top: 75px;
+    padding-bottom: 50px;
+    width: 380px;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 50px auto;
+    text-align: center;
+    color: white;
+    background: linear-gradient(130deg, rgb(5, 5, 199), rgb(86, 86, 235));
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search input {
+    border: none;
+    outline: 0;
+    padding: 12px 25px;
+    font-size: 18px;
+    background-color: rgb(222, 237, 243);
+    color: black;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 12px;
+}
+
+.search button {
+    border-radius: 50%;
+    border: none;
+    outline: 0;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+ }
+ 
+ .search button:hover {
+    background: #CCDAEF;
+    border: solid #74A6EE 2px;
+    border-radius: 45%;
+    text-decoration: none;
+ }
+
+.search button img {
+    height: 22px;
+    width: 22px;
+    padding-top: 4px;
+}
+
+.winfo img {
+    margin-top: 20px;
+    width: 170px;
+}
+
+.winfo h1 {
+    font-size: 70px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.winfo h2 {
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: -40px;
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    margin-top: 50px;
+}
+
+.details .col {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.details .col img {
+    width: 47px;
+    margin-right: 10px;
+    padding-bottom: 10px;
+}
+
+.humidity, .wind {
+    font-size: 24px;
+}
+
+.humidity p, .wind p {
+    margin: 0px;
+}
+
+.error {
+    color: red;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.header {
+    background: linear-gradient(130deg, rgb(86, 86, 235), rgb(5, 5, 199));
+    margin: 0px;
+    display: flex;
+    
+}
+
+.header img {
+    height: 65px;
+    width: 65px;
+    padding: 10px 0 10px 35px;
+}
+
+.header h2 {
+    color: #CCDAEF;
+    padding-left: 20px;
+}
+
+.footer {
+    background: linear-gradient(130deg, rgb(86, 86, 235), rgb(5, 5, 199));
+    display: flex;
+    color: #CCDAEF;
+    margin: 50px auto 0 auto;
+    justify-content: center;
+}
